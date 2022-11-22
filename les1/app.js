@@ -5,7 +5,7 @@ class App
         console.log("hello World!");
         let appNaam = "test"
         let versienummer = 0.9
-        let versiedatum = "22 november"
+        let versiedatum = new Date("2022/11/22")
         let autheur = "Cedric Király"
         let copyright = "Google ©"
         let distributeur = "Google inc"
