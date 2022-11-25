@@ -1,3 +1,9 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+canvas{
+    height: auto;
+    width: auto;
 }
