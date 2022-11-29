@@ -48,10 +48,9 @@ class App
         
         let title = document.getElementById("newstitle");
         let randomgetal = Math.random();
-        title.style.backgroundColor ="#eec900";
-
         
-        console.log(randomgetal);
+        
+        console.log(randomgetal)
         console.log(title);
         console.log(canvas);
     }
