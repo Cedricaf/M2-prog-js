@@ -46,7 +46,6 @@ class App
         g.stroke();
         g.closePath();
         
-        
         console.log(canvas);
     }
 }
