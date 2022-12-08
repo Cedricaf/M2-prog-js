@@ -7,7 +7,9 @@ class App
         let Headers = document.getElementsByClassName("bandName")
         for(let i = 0; i < Headers.length;  i++){
             Headers[i].innerHTML = list[i];
-        }
+
+        
+        } 
         console.log(list)
     }
     
