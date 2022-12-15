@@ -9,7 +9,7 @@ class App
         let versiedatum = new Date("2022/11/22");
         let autheur = "Cedric Király";
         let copyright = "Google ©";
-        let distributeur = "Google inc";
+        let distributeur = "Google";
         let darkmode = true;
         console.log(appNaam);
         console.log(versienummer);

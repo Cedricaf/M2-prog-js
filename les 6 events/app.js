@@ -9,8 +9,9 @@ class App
     myclick()
     {
         const myButton = document.getElementById("myButton")
-        myButton.style.backgroundColor = "red";
+        myButton.style.backgroundColor = "green";
         console.log("Hello World")
+        
     }
 }
 
