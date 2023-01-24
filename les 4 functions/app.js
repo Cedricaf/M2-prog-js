@@ -83,7 +83,8 @@ class App
 
     tekenkerstboom(g,x,y)
     {
-
+        x = 1020
+        y = 1032
         g.beginPath();
         g.fillStyle = "#008000";
         g.moveTo(1020,1032);
