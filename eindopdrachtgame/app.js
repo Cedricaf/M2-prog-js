@@ -6,7 +6,7 @@ class App
         var g = canvas.getContext("2d");
 
 
-
+    
         g.beginPath();
         g.arc(350,100,50,0,2*Math.PI);
         g.stroke();
@@ -31,7 +31,6 @@ class App
         g.lineTo(350,110);
         g.fill()
         g.stroke();
-
 
         g.beginPath();
         g.arc(330,130,5,0,2*Math.PI);
@@ -71,6 +70,18 @@ class App
         g.moveTo(180,110);
     
         g.stroke();
+
+        g.lineWidth = 2
+        g.strokeStyle = 'red'
+        g.fillStyle = 'red'
+        g.strokeRect(800, 500, 300, 200)
+        g.fillRect(925, 600, 50, 100)
+        g.beginPath()
+        g.moveTo(700, 500)
+        g.lineTo(1200, 500)
+        g.lineTo(950, 300)
+        g.lineTo(700, 500)
+        g.stroke()
     }
 
 }
