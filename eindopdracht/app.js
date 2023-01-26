@@ -1,4 +1,4 @@
-class App
+class Snowman
 {
     runApplication()
     {
@@ -86,5 +86,5 @@ class App
 
 }
 
-let app = new App();
+let app = new Snowman();
 app.runApplication();
